@@ -10,14 +10,14 @@ LTO_ENABLE = yes
 KEY_LOCK_ENABLE = yes
 
 CONSOLE_ENABLE = no         # Console for debug
-COMMAND_ENABLE = no         # Commands for debug and configuration
+COMMAND_ENABLE = yes         # Commands for debug and configuration
 AUDIO_ENABLE = no           # Audio output
 KEY_OVERRIDE_ENABLE = no
 # SEND_STRING_ENABLE = no
 SECURE_ENABLE = no
-SEQUENCER_ENABLE = no
+SEQUENCER_ENABLE = yes
 AUTO_SHIFT_ENABLE = no
-CAPS_WORD_ENABLE = no
+CAPS_WORD_ENABLE = yes
 
 SPLIT_KEYBOARD = yes        # Enables split keyboard support
 

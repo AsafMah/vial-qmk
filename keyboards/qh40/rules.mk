@@ -10,14 +10,14 @@ LTO_ENABLE = yes
 KEY_LOCK_ENABLE = yes
 
 CONSOLE_ENABLE = no         # Console for debug
-COMMAND_ENABLE = yes         # Commands for debug and configuration
+COMMAND_ENABLE = no         # Commands for debug and configuration
 AUDIO_ENABLE = no           # Audio output
 KEY_OVERRIDE_ENABLE = no
 # SEND_STRING_ENABLE = no
 SECURE_ENABLE = no
-SEQUENCER_ENABLE = yes
+SEQUENCER_ENABLE = no
 AUTO_SHIFT_ENABLE = no
-CAPS_WORD_ENABLE = yes
+CAPS_WORD_ENABLE = no
 
 SPLIT_KEYBOARD = yes        # Enables split keyboard support
 
@@ -26,5 +26,5 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 # RGB Matrix enabled
 RGB_MATRIX_ENABLE = yes
-RGB_MATRIX_DRIVER = WS2812
+RGB_MATRIX_DRIVER = ws2812
 
